@@ -2,16 +2,324 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <meta name="description"
+    content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+  <meta name="keywords"
+    content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
+  <meta name="author" content="PIXINVENT">
   <title>Coding Peeps Home</title>
+  <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700"
+    rel="stylesheet">
+
+  <!-- BEGIN: Vendor CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/ui/prism.min.css">
+  <!-- END: Vendor CSS-->
+
+  <!-- BEGIN: Theme CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/colors.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/components.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/themes/dark-layout.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/themes/semi-dark-layout.css">
+
+  <!-- BEGIN: Page CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/horizontal-menu.css">
+  <!-- END: Page CSS-->
+
+  <!-- BEGIN: Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- END: Custom CSS-->
 </head>
 
-<body>
-  <main>
-    <h1>Coding Peeps Home Site</h1>
-  </main>
+<body class="horizontal-layout horizontal-menu dark-layout navbar-sticky 2-columns  navbar-static-top footer-static  "
+  data-open="hover" data-menu="horizontal-menu" data-col="2-columns" data-layout="dark-layout">
+  <!-- BEGIN: Header-->
+  <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-static-top bg-primary navbar-brand-center">
+    <div class="navbar-header d-xl-block d-none">
+      <ul class="nav navbar-nav flex-row">
+        <li class="nav-item"><a class="navbar-brand" href="index.html">
+            <div class="brand-logo"><img class="logo" src="app-assets/images/logo/logo-light.png"></div>
+            <h2 class="brand-text mb-0">Coding Peeps</h2>
+          </a></li>
+      </ul>
+    </div>
+    <div class="navbar-wrapper">
+      <div class="navbar-container content">
+        <div class="navbar-collapse" id="navbar-mobile">
+          <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+
+
+          </div>
+          <ul class="nav navbar-nav float-right d-flex align-items-center">
+            <!-- <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language d-lg-inline d-none">English</span></a>
+                          <div class="dropdown-menu" aria-labelledby="dropdown-flag"><a class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us mr-50"></i>English</a><a class="dropdown-item" href="#" data-language="fr"><i class="flag-icon flag-icon-fr mr-50"></i>French</a><a class="dropdown-item" href="#" data-language="de"><i class="flag-icon flag-icon-de mr-50"></i>German</a><a class="dropdown-item" href="#" data-language="pt"><i class="flag-icon flag-icon-pt mr-50"></i>Portuguese</a></div>
+                      </li> -->
+            <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i
+                  class="ficon bx bx-fullscreen"></i></a></li>
+            <!-- <li class="nav-item nav-search"><a class="nav-link nav-link-search pt-2"><i class="ficon bx bx-search"></i></a>
+                          <div class="search-input">
+                              <div class="search-input-icon"><i class="bx bx-search primary"></i></div>
+                              <input class="input" type="text" placeholder="Explore Frest..." tabindex="-1" data-search="starter-list">
+                              <div class="search-input-close"><i class="bx bx-x"></i></div>
+                              <ul class="search-list"></ul>
+                          </div>
+                      </li> -->
+
+            <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+                data-toggle="dropdown">
+                <div class="user-nav d-lg-flex d-none"><span class="user-name">Haytham Allos</span><span
+                    class="user-status">Coding
+                    Mentor</span></div><span>
+                  <img class="round" src="app-assets/images/portrait/small/mentor.jpg" alt="avatar" height="40"
+                    width="40"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                    class="bx bx-user mr-50"></i> About Me</a><a class="dropdown-item" href="#">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END: Header-->
+
+
+  <!-- BEGIN: Main Menu-->
+  <div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-light navbar-without-dd-arrow"
+    role="navigation" data-menu="menu-wrapper">
+    <div class="navbar-header d-xl-none d-block">
+      <ul class="nav navbar-nav flex-row">
+        <li class="nav-item mr-auto"><a class="navbar-brand" href="html/ltr/horizontal-menu-template-dark/index.html">
+            <div class="brand-logo"><img class="logo" src="app-assets/images/logo/logo.png" /></div>
+            <h2 class="brand-text mb-0">Frest</h2>
+          </a></li>
+        <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+              class="bx bx-x d-block d-xl-none font-medium-4 primary toggle-icon"></i></a></li>
+      </ul>
+    </div>
+    <div class="shadow-bottom"></div>
+    <!-- Horizontal menu content-->
+    <div class="navbar-container" style="margin-left: 100px;">
+      <!-- include includes/mixins-->
+      <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation" data-icon-style="lines">
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+              data-toggle="dropdown">
+              <div class="user-nav d-lg-flex d-none"><span class="user-name">Nolan Allos</span><span
+                  class="user-status">Peep</span></div><span>
+                <img class="round" src="app-assets/images/portrait/small/avatar-s-3.jpg" alt="avatar" height="40"
+                  width="40"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                  class="bx bx-user mr-50"></i> About Me</a><a class="dropdown-item" href="#">
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+              data-toggle="dropdown">
+              <div class="user-nav d-lg-flex d-none"><span class="user-name">Ari Koza</span><span
+                  class="user-status">Peep</span></div><span>
+                <img class="round" src="app-assets/images/portrait/small/avatar-s-5.jpg" alt="avatar" height="40"
+                  width="40"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                  class="bx bx-user mr-50"></i> About Me</a><a class="dropdown-item" href="#">
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+              data-toggle="dropdown">
+              <div class="user-nav d-lg-flex d-none"><span class="user-name">Dominic Zengilou</span><span
+                  class="user-status">Peep</span></div><span>
+                <img class="round" src="app-assets/images/portrait/small/avatar-s-9.jpg" alt="avatar" height="40"
+                  width="40"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                  class="bx bx-user mr-50"></i> About Me</a><a class="dropdown-item" href="#">
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+              data-toggle="dropdown">
+              <div class="user-nav d-lg-flex d-none"><span class="user-name">Aza Hilanto</span><span
+                  class="user-status">Peep</span></div><span>
+                <img class="round" src="app-assets/images/portrait/small/avatar-s-19.jpg" alt="avatar" height="40"
+                  width="40"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                  class="bx bx-user mr-50"></i> About Me</a><a class="dropdown-item" href="#">
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+              data-toggle="dropdown">
+              <div class="user-nav d-lg-flex d-none"><span class="user-name">Zach Katoula</span><span
+                  class="user-status">Peep</span></div><span>
+                <img class="round" src="app-assets/images/portrait/small/avatar-s-25.jpg" alt="avatar" height="40"
+                  width="40"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                  class="bx bx-user mr-50"></i> About Me</a><a class="dropdown-item" href="#">
+              </a>
+            </div>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <!-- /horizontal menu content-->
+  </div>
+  <!-- END: Main Menu-->
+
+  <!-- BEGIN: Content-->
+  <div class="app-content content">
+    <div class="content-overlay"></div>
+    <div class="content-wrapper">
+      <div class="content-header row">
+        <div class="content-header-left col-12 mb-2 mt-1">
+          <div class="row breadcrumbs-top">
+            <div class="col-12">
+              <!-- <h5 class="content-header-title float-left pr-1 mb-0">Static Layout</h5>
+              <div class="breadcrumb-wrapper col-12">
+                <ol class="breadcrumb p-0 mb-0">
+                  <li class="breadcrumb-item"><a href="sk-layout-2-columns.html"><i class="bx bx-home-alt"></i></a>
+                  </li>
+                  <li class="breadcrumb-item"><a href="#">Starter Kit</a>
+                  </li>
+                  <li class="breadcrumb-item active">Static Layout
+                  </li>
+                </ol>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-body">
+
+        <!-- CSS Classes -->
+        <section id="css-classes" class="card">
+          <div class="card-header">
+            <h4 class="card-title">CSS Classes</h4>
+          </div>
+          <div class="card-content">
+            <div class="card-body">
+              <div class="card-text">
+                <p>Default this template has a static layout elements, so there is no any specific classes need to add
+                  to create this layout.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/ CSS Classes -->
+        <!-- HTML Markup -->
+        <section id="html-markup" class="card">
+          <div class="card-header">
+            <h4 class="card-title">HTML Markup</h4>
+          </div>
+          <div class="card-content">
+            <div class="card-body">
+              <div class="card-text">
+                <!-- <p>This section contains HTML Markup to create static layout. This layout has a navigation, content and
+              left sidebar sections with common header & footer.</p>
+            <p>Frest has a ready to use starter kit, you can use this layout directly by using the starter kit pages
+              from the <code>frest-clean-bootstrap-admin-dashboard-template/starter-kit</code> folder.</p>
+            <pre class="language-html">
+              <code class="language-html">
+                  &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                      &lt;head&gt;&lt;/head&gt;
+                      &lt;body class="vertical-layout vertical-menu-modern 2-columns navbar-static menu-expanded" data-menu="vertical-menu-modern"&gt;
+
+                        &lt;!-- Static-top--&gt;
+                        &lt;nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-static-top navbar-light navbar-shadow"&gt;
+                            ...
+                        &lt;/nav&gt;
+
+                        &lt;!-- Begin Navigation--&gt;
+                        &lt;div class="main-menu menu-static menu-light menu-accordion menu-shadow expanded"&gt;
+                            ...
+                        &lt;/div&gt;
+                        &lt;!-- End Navigation--&gt;
+
+                        &lt;!-- Begin Content--&gt;
+                        &lt;div class="content app-content"&gt;
+                            ....
+                        &lt;/div&gt;
+                        &lt;!-- End Content--&gt;
+
+                        &lt;!-- Start Static Footer--&gt;
+                        &lt;footer class="footer footer-static footer-light"&gt;
+                            ...
+                        &lt;/footer&gt;
+                        &lt;!-- End Static Footer--&gt;
+
+                      &lt;/body&gt;
+                    &lt;/html&gt;
+              </code>
+              </pre> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/ HTML Markup -->
+
+      </div>
+    </div>
+  </div>
+  <!-- END: Content-->
+
+  <div class="sidenav-overlay"></div>
+  <div class="drag-target"></div>
+
+  <!-- BEGIN: Footer-->
+  <footer class="footer footer-static footer-light">
+    <p class="clearfix mb-0"><span class="float-left d-inline-block">2020 &copy; CODING PEEPS</span>
+    </p>
+  </footer>
+  <!-- END: Footer-->
+
+
+  <!-- BEGIN: Vendor JS-->
+  <script src="app-assets/vendors/js/vendors.min.js"></script>
+  <script src="app-assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.js"></script>
+  <script src="app-assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+  <script src="app-assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+  <script src="app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+  <!-- BEGIN Vendor JS-->
+
+  <!-- BEGIN: Page Vendor JS-->
+  <script src="app-assets/vendors/js/ui/jquery.sticky.js"></script>
+  <script src="app-assets/vendors/js/ui/prism.min.js"></script>
+  <!-- END: Page Vendor JS-->
+
+  <!-- BEGIN: Theme JS-->
+  <script src="app-assets/js/scripts/configs/horizontal-menu.js"></script>
+  <script src="app-assets/js/core/app-menu.js"></script>
+  <script src="app-assets/js/core/app.js"></script>
+  <!-- END: Theme JS-->
+
+  <!-- BEGIN: Page JS-->
+  <!-- END: Page JS-->
 </body>
 
 </html>
